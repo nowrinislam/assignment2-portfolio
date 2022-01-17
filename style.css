@@ -1,0 +1,113 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.first-heading{
+    width: 243px;
+    height: 52.2px;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-top: 70px;
+}
+.flexible-container{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+.half-width{
+    width: 582px;
+    height: 133px;
+    padding-top: 90px;
+    padding-left: 120px;
+    padding-bottom: 10px;
+}
+.half-width img{
+    width: 400px;
+    transition: width 5s ease-in-out 1s;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color:#E02C6D;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.half-width img:hover{
+    transform: scale(1.3);
+    transition: transform 2s ease-in-out;
+}
+.section-title{
+    width: 262px;
+    height: 70px;
+    font-size: 28px;
+    padding-top: 350px;
+    padding-left: 400px;
+    padding-bottom: 50px;
+}
+.container{
+    width: 1047px;
+    height: 1662px;
+    padding-left: 196px;
+    /* padding-top: 935px; */
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+}
+ .collection{
+    width: 300px;
+    height: 490px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 15px 10px;
+    
+}
+.collection p{
+    margin: 0;
+    color: #787885;
+    font-weight: 700;
+    font-size: 14px;
+}
+.collection-title{
+    font-weight: 700;
+    font-size: 28px;
+}
+.collection-detail .collection-author{
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 10px;
+}
+.collection .collection-banner img:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+
+}
+.collection-rating span{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #787885;
+}
+.fa-star.filled{
+    color: #FB8200;
+    
+
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.seemore-button{
+    display: flex;
+    justify-content: flex-end;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 60%;
+    padding-top:20px ;
+   
+}   
+
